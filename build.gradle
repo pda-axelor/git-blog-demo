@@ -1,0 +1,11 @@
+apply plugin: "java"
+
+jar
+{
+ manifest.attributes "Main-Class":"org.psdfiles.Tutorial.Example"
+}
+
+sourceSets
+{
+ main.java.srcDir "src/main"
+}
